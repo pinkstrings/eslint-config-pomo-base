@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-pomo-base",
+  "version": "1.0.0",
+  "description": "Custom eslint config, based on eslint-config-airbnb-base",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "node_modules/.bin/eslint --fix index.js; exit 0",
+    "lint": "node_modules/.bin/eslint index.js; exit 0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslintrc"
+  ],
+  "author": "Tom Adam Shani <tom@tomshani.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
