@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pomo-base",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Custom eslint config, based on eslint-config-airbnb-base",
   "main": "index.js",
   "scripts": {
@@ -19,14 +19,14 @@
     "url": "https://github.com/pinkstrings/eslint-config-pomo-base"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.3.1"
+    "eslint-config-airbnb-base": "^13.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint": "^5.6.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "peerDependencies": {
-    "eslint": "^4.3.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint": "^5.6.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
